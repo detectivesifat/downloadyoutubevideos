@@ -19,4 +19,5 @@ yt-dlp "LINK" <br>
 
 ***Automated Way*** <br><br>
 
-Simply Download the file and run it as Admin
+Simply Download the file and run it as Admin <br>
+Tips: keep the file in a seperate folder
