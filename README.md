@@ -2,7 +2,7 @@
 
 ## Manual Way
 
-Run Command Prompt as Administrator and paste this:
+Run Command Prompt (not as Administrator) and paste this:
 
 winget install yt-dlp  
 winget install ffmpeg  
@@ -18,8 +18,10 @@ yt-dlp "LINK"
 | Entire Playlist                     | `yt-dlp --yes-playlist "URL"` |
 | Specific Resolution (e.g., 720p)    | `yt-dlp -S "res:720" "URL"` |
 
+**The file will be downloaded to C:/user/yourusername/**
+
 ## Automated Way
 
-Simply download the file and run it as Administrator.
+Simply download the file and run it (not as Administrator).
 
 Tips: Keep the file in a separate folder.
