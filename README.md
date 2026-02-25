@@ -1,23 +1,25 @@
 # downloadyoutubevideos
 
-***Manual Way*** <br> <br>
-Run cmd as Admin and paste this: <br>
-winget install yt-dlp <br>
-winget install ffmpeg <br>
+## Manual Way
 
-Then paste this including the video link: <br>
+Run Command Prompt as Administrator and paste this:
 
-yt-dlp "LINK" <br>
+winget install yt-dlp  
+winget install ffmpeg  
 
-| More options                          | Use this Command                                                |
-|-------------------------------------- |------------------------------------------------------------------|
-| Best Quality (MP4)                    | `yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" "URL"`          |
-| Audio Only (MP3)                      | `yt-dlp -x --audio-format mp3 "URL"`                             |
-| Entire Playlist                       | `yt-dlp --yes-playlist "URL"`                                    |
-| Specific Resolution (e.g., 720p)      | `yt-dlp -S "res:720" "URL"`                                       |
-<br><br><br>
+Then paste this including the video link:
 
-***Automated Way*** <br><br>
+yt-dlp "LINK"
 
-Simply Download the file and run it as Admin <br>
-Tips: keep the file in a seperate folder
+| More options                         | Use this Command |
+|-------------------------------------|------------------|
+| Best Quality (MP4)                  | `yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" "URL"` |
+| Audio Only (MP3)                    | `yt-dlp -x --audio-format mp3 "URL"` |
+| Entire Playlist                     | `yt-dlp --yes-playlist "URL"` |
+| Specific Resolution (e.g., 720p)    | `yt-dlp -S "res:720" "URL"` |
+
+## Automated Way
+
+Simply download the file and run it as Administrator.
+
+Tips: Keep the file in a separate folder.
