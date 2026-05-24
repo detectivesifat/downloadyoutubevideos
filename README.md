@@ -1,5 +1,13 @@
 # downloadyoutubevideos
 
+## Automated Way
+
+Simply download the file and run it (not as Administrator).
+
+Tips: Keep the file in a separate folder.
+
+
+
 ## Manual Way
 
 Run Command Prompt (not as Administrator) and paste this:
@@ -20,8 +28,3 @@ yt-dlp "LINK"
 
 **The file will be downloaded to C:/user/yourusername/**
 
-## Automated Way
-
-Simply download the file and run it (not as Administrator).
-
-Tips: Keep the file in a separate folder.
